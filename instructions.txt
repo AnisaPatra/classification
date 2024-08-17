@@ -1,0 +1,17 @@
+1) Create a directory | cd path/to/your_project
+2) Create a virtual environment | python -m venv venv
+3) Activate the virtual env | venv\Scripts\activate
+4) Install a modules | pip install flask tensorflow numpy
+5) Save your pretrained model | model.save('human_or_horse_model.h5')
+6) Below can be your project structure
+your_project/
+│
+├── app.py
+├── templates/
+│   └── index.html
+├── static/
+│   └── styles.css (optional, for styling)
+└── human_or_horse_model.h5
+7) Load and use the model
+8) Run the app | python app.py
+
